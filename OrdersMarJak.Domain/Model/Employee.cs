@@ -8,6 +8,5 @@ public class Employee : AuditableModel
     public bool AllowedSaleOrderItemsDate { get; set; }
 
     public virtual ICollection<EmployeeGroup> EmployeeGroups{ get; set; }
-    
     public virtual ICollection<SaleOrderItemDate> SaleOrderItemDates{ get; set; }
 }

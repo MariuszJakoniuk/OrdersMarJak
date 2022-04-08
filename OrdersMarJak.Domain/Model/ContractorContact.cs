@@ -1,8 +1,8 @@
 ﻿namespace OrdersMarJak.Domain.Model;
 public class ContractorContact : AuditableModel
 {
-    public bool IsPrimary { get; set; }
     public string Name { get; set; }
+    public bool IsPrimary { get; set; }
     public string Comment { get; set; }
 
     public int ContractorId { get; set; }

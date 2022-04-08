@@ -6,11 +6,9 @@ public interface ISaleOrderItemDateRepository
 
     bool DeleteSaleOrderItemDate(int saleOrderItemDateId);
 
-    IQueryable<SaleOrderItemDate> GetAllSaleOrderItemDate();
-
     IQueryable<SaleOrderItemDate> GetAllSaleOrderItemDateByOrderItemId(int saleOrderItemId);
 
     SaleOrderItemDate GetSaleOrderItemDateById(int saleOrderItemDateId);
 
-    bool UpdateSaleOrderItemDate(SaleOrderItemDate saleOrderItem);
+    bool UpdateSaleOrderItemDate(SaleOrderItemDate saleOrderItemDate);
 }

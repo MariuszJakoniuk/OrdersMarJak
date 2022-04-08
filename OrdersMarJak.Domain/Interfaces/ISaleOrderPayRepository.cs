@@ -6,8 +6,6 @@ public interface ISaleOrderPayRepository
 
     bool DeleteSaleOrderPay(int saleOrderPayId);
 
-    IQueryable<SaleOrderPay> GetAllSaleOrderPay();
-
     IQueryable<SaleOrderPay> GetAllSaleOrderPayBySaleOrderId(int saleOrderId);
 
     SaleOrderPay GetSaleOrderPayById(int saleOrderPayId);

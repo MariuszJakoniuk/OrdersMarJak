@@ -7,6 +7,7 @@ public interface IContractorContactRepository
     bool DeleteContractorContact(int contractorContactId);
 
     IQueryable<ContractorContact> GetAllContractorContact();
+
     IQueryable<ContractorContact> GetAllContractorContactByContractorId(int contractorId);
 
     ContractorContact GetContractorContactById(int contractorContactId);

@@ -6,8 +6,6 @@ public interface ISaleOrderItemMemoRepository
 
     bool DeleteSaleOrderItemMemo(int saleOrderItemMemoId);
 
-    IQueryable<SaleOrderItemMemo> GetAllSaleOrderItemMemo();
-
     IQueryable<SaleOrderItemMemo> GetAllSaleOrderItemMemoBySaleOrderItemId(int saleOrderItemId);
 
     SaleOrderItemMemo GetSaleOrderItemMemoById(int saleOrderItemMemoId);
